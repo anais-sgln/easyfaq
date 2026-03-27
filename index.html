@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easyFAQ - Centre d'aide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-icon">&#9673;</span> easyFAQ
+            </div>
+            <nav class="header-nav">
+                <a href="#" data-i18n="status_page">Page de statut</a>
+                <a href="#" data-i18n="contact_us">Contactez-nous</a>
+                <div class="lang-selector-wrapper">
+                    <div class="lang-selector">
+                        <span class="lang-current">&#127467;&#127479; Fran&ccedil;ais</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="lang-dropdown">
+                        <div class="lang-option active" data-lang="fr">&#127467;&#127479; Fran&ccedil;ais</div>
+                        <div class="lang-option" data-lang="en">&#127468;&#127463; English</div>
+                        <div class="lang-option" data-lang="zh">&#127464;&#127475; &#20013;&#25991;</div>
+                        <div class="lang-option" data-lang="it">&#127470;&#127481; Italiano</div>
+                        <div class="lang-option" data-lang="de">&#127465;&#127466; Deutsch</div>
+                    </div>
+                </div>
+                <a href="#" class="btn-primary-header" data-i18n="go_to">Aller sur easyFAQ &rarr;</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">Centre d'aide easyFAQ</h1>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" data-i18n-placeholder="search_placeholder" placeholder="Que recherchez-vous ?">
+            </div>
+        </div>
+        <div class="hero-illustration">
+            <img src="https://img.icons8.com/3d-fluency/188/city-buildings.png" alt="illustration">
+        </div>
+    </section>
+
+    <!-- NOTICE BANNER -->
+    <section class="notice-banner">
+        <div class="notice-inner">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div class="marquee-wrapper">
+                <p class="marquee-text" data-i18n="notice"><strong>Avis :</strong> Certains transporteurs subissent des retards dans certaines r&eacute;gions en raison du conflit en cours au Moyen-Orient. Les exp&eacute;ditions peuvent prendre plus de temps que d'habitude.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+        <h2 data-i18n="faq_title">FAQ</h2>
+        <div class="faq-grid">
+            <a href="#" class="faq-link" data-i18n="faq_1">Comment ouvrir une enqu&ecirc;te ou d&eacute;poser une r&eacute;clamation pour mon colis ?</a>
+            <a href="#" class="faq-link" data-i18n="faq_2">Comment exp&eacute;dier &agrave; l'international avec easyFAQ ?</a>
+            <a href="#" class="faq-link" data-i18n="faq_3">O&ugrave; puis-je trouver les tarifs d'exp&eacute;dition ?</a>
+            <a href="#" class="faq-link" data-i18n="faq_4">Mon colis est en retard, que faire ?</a>
+            <a href="#" class="faq-link" data-i18n="faq_5">Comment demander un enl&egrave;vement ?</a>
+            <a href="#" class="faq-link" data-i18n="faq_6">Comment &eacute;viter les surcharges ?</a>
+        </div>
+    </section>
+
+    <!-- CATEGORY CARDS -->
+    <section class="categories-section">
+        <div class="categories-grid">
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/rocket--v1.png" alt="Premiers pas">
+                </div>
+                <span data-i18n="cat_getting_started">Premiers pas</span>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/todo-list--v1.png" alt="Fonctionnalit&eacute;s">
+                </div>
+                <span data-i18n="cat_features">Fonctionnalit&eacute;s</span>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/delivery--v1.png" alt="Transporteurs">
+                </div>
+                <span data-i18n="cat_carriers">Transporteurs</span>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/connected--v1.png" alt="Int&eacute;grations">
+                </div>
+                <span data-i18n="cat_integrations">Int&eacute;grations</span>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/card-in-use.png" alt="Facturation">
+                </div>
+                <span data-i18n="cat_billing">Facturation</span>
+            </a>
+            <a href="#" class="category-card">
+                <div class="category-icon">
+                    <img src="https://img.icons8.com/color/96/faq.png" alt="FAQ">
+                </div>
+                <span data-i18n="cat_faq">FAQ</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- CTA BANNERS -->
+    <section class="cta-section">
+        <div class="cta-grid">
+            <a href="#" class="cta-card cta-api">
+                <div class="cta-text">
+                    <span data-i18n="cta_api">Documentation API &rarr;</span>
+                </div>
+                <div class="cta-icon">
+                    <img src="https://img.icons8.com/color/96/api-settings.png" alt="API">
+                </div>
+            </a>
+            <a href="#" class="cta-card cta-academy">
+                <div class="cta-text">
+                    <span data-i18n="cta_academy">Acad&eacute;mie easyFAQ &rarr;</span>
+                </div>
+                <div class="cta-icon">
+                    <img src="https://img.icons8.com/color/96/graduation-cap--v1.png" alt="Academy">
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- TRIAL BANNER -->
+    <section class="trial-banner">
+        <h2 data-i18n="trial_title">Pas encore utilisateur easyFAQ ?</h2>
+        <a href="#" class="btn-trial" data-i18n="trial_btn">D&eacute;marrer votre essai de 14 jours</a>
+    </section>
+
+    <!-- SIGNUP VIEW (hidden by default) -->
+    <div id="signup-view" class="signup-view" style="display:none;">
+        <div class="signup-layout">
+            <!-- LEFT PANEL -->
+            <div class="signup-left">
+                <a href="#" class="signup-logo-link">
+                    <span class="logo-icon">&#9673;</span> easyFAQ
+                </a>
+                <h1 data-i18n="signup_headline">Satisfaire vos clients &agrave; chaque &eacute;tape du parcours</h1>
+                <p class="signup-reviews">
+                    <span data-i18n="signup_reviews">Plus de 2 000 avis 5 &eacute;toiles</span>
+                    <span class="signup-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </p>
+                <ul class="signup-benefits">
+                    <li><i class="fa-solid fa-check"></i> <span data-i18n="signup_benefit_1">Configuration facile</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span data-i18n="signup_benefit_2">Essai gratuit de 14 jours pour les plans Premium</span></li>
+                    <li><i class="fa-solid fa-check"></i> <span data-i18n="signup_benefit_3">Temps illimit&eacute; sur le plan Gratuit</span></li>
+                </ul>
+            </div>
+            <!-- RIGHT PANEL -->
+            <div class="signup-right">
+                <div class="signup-form-wrapper">
+                    <h2 data-i18n="signup_form_title">Cr&eacute;ez votre compte easyFAQ</h2>
+                    <p class="signup-form-subtitle" data-i18n="signup_form_subtitle">Et commencez &agrave; exp&eacute;dier plus intelligemment d&egrave;s aujourd'hui.</p>
+                    <form class="signup-form" onsubmit="return false;">
+                        <label data-i18n="signup_email_label">Email</label>
+                        <input type="email" data-i18n-placeholder="signup_email_placeholder" placeholder="votre@email.com">
+                        <label data-i18n="signup_name_label">Nom complet</label>
+                        <div class="signup-name-row">
+                            <input type="text" data-i18n-placeholder="signup_first_name" placeholder="Pr&eacute;nom">
+                            <input type="text" data-i18n-placeholder="signup_last_name" placeholder="Nom">
+                        </div>
+                        <label data-i18n="signup_password_label">Mot de passe</label>
+                        <input type="password" data-i18n-placeholder="signup_password_placeholder" placeholder="Cr&eacute;ez un mot de passe">
+                        <div class="signup-terms">
+                            <input type="checkbox" id="signup-terms-check">
+                            <label for="signup-terms-check" data-i18n="signup_terms">J'accepte les <a href="#">Conditions G&eacute;n&eacute;rales</a></label>
+                        </div>
+                        <button type="submit" class="btn-signup" data-i18n="signup_btn">Continuer avec l'email</button>
+                    </form>
+                    <div class="signup-divider">
+                        <span data-i18n="signup_or">Ou</span>
+                    </div>
+                    <div class="signup-social">
+                        <button class="social-btn"><i class="fa-brands fa-google"></i></button>
+                        <button class="social-btn"><i class="fa-brands fa-facebook-f"></i></button>
+                        <button class="social-btn"><i class="fa-brands fa-apple"></i></button>
+                    </div>
+                    <p class="signup-login" data-i18n="signup_login">Vous avez d&eacute;j&agrave; un compte ? <a href="#">Connexion</a></p>
+                </div>
+                <p class="signup-trusted" data-i18n="signup_trusted">Logiciel d'exp&eacute;dition n&deg;1 en Europe, approuv&eacute; par plus de 25 000 entreprises</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORY DETAIL VIEW (hidden by default) -->
+    <div id="category-view" class="category-view" style="display:none;">
+        <!-- Breadcrumb + Search -->
+        <div class="article-topbar">
+            <div class="article-topbar-inner">
+                <div class="breadcrumb">
+                    <a href="#" class="cat-breadcrumb-home" data-i18n="breadcrumb_home">Centre d'aide easyFAQ</a>
+                    <span>&rsaquo;</span>
+                    <span id="cat-breadcrumb-name" class="breadcrumb-current"></span>
+                </div>
+                <div class="article-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" data-i18n-placeholder="search_placeholder" placeholder="Que recherchez-vous ?">
+                </div>
+            </div>
+        </div>
+
+        <!-- HERO SECTION WITH STEPS -->
+        <section class="cat-hero">
+            <div class="cat-hero-inner">
+                <div class="cat-hero-text">
+                    <h1 id="cat-hero-title"></h1>
+                    <p id="cat-hero-desc" class="cat-hero-desc"></p>
+                    <div id="cat-accordion" class="cat-accordion"></div>
+                </div>
+                <div class="cat-hero-img">
+                    <img id="cat-hero-image" src="https://img.icons8.com/3d-fluency/188/city-buildings.png" alt="illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- CARRIERS / PARTNERS SECTION -->
+        <section class="cat-partners">
+            <h2 id="cat-partners-title"></h2>
+            <p id="cat-partners-desc" class="cat-partners-desc"></p>
+            <div id="cat-partners-grid" class="cat-partners-grid"></div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="cat-cta-banner">
+            <div class="cat-cta-inner">
+                <h3 id="cat-cta-text"></h3>
+                <a href="#" class="btn-cat-cta" id="cat-cta-btn"></a>
+            </div>
+        </section>
+
+        <!-- DISCOVER MORE -->
+        <section class="cat-discover">
+            <h2 id="cat-discover-title"></h2>
+            <p id="cat-discover-desc" class="cat-discover-desc"></p>
+            <div class="cat-featured">
+                <div class="cat-featured-img">
+                    <img id="cat-featured-image" src="https://img.icons8.com/3d-fluency/188/package.png" alt="featured">
+                    <span id="cat-featured-badge" class="cat-featured-badge"></span>
+                </div>
+                <div class="cat-featured-text">
+                    <h3 id="cat-featured-title"></h3>
+                    <p id="cat-featured-desc-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BOTTOM ARTICLE CARDS -->
+        <section class="cat-articles">
+            <div id="cat-articles-grid" class="cat-articles-grid"></div>
+        </section>
+    </div>
+
+    <!-- ARTICLE DETAIL VIEW (hidden by default) -->
+    <div id="article-view" class="article-view" style="display:none;">
+        <!-- Breadcrumb + Search -->
+        <div class="article-topbar">
+            <div class="article-topbar-inner">
+                <div class="breadcrumb">
+                    <a href="#" class="breadcrumb-home" data-i18n="breadcrumb_home">Centre d'aide easyFAQ</a>
+                    <span>&rsaquo;</span>
+                    <a href="#" data-i18n="breadcrumb_faq">FAQ</a>
+                    <span>&rsaquo;</span>
+                    <span class="breadcrumb-current" data-i18n="breadcrumb_answers">R&eacute;ponses rapides</span>
+                </div>
+                <div class="article-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" data-i18n-placeholder="search_placeholder" placeholder="Que recherchez-vous ?">
+                </div>
+            </div>
+        </div>
+
+        <div class="article-layout">
+            <!-- LEFT SIDEBAR -->
+            <aside class="article-sidebar">
+                <div class="sidebar-related">
+                    <h3 data-i18n="related_articles">Articles li&eacute;s</h3>
+                    <ul class="sidebar-links" id="sidebar-links"></ul>
+                </div>
+                <div class="sidebar-promo">
+                    <h4 data-i18n="promo_title">Pas encore sur easyFAQ ?</h4>
+                    <p data-i18n="promo_text">Automatisez vos exp&eacute;ditions et offrez une meilleure exp&eacute;rience de livraison. Connectez-vous &agrave; 80+ transporteurs via notre API.</p>
+                    <img src="https://img.icons8.com/3d-fluency/188/city-buildings.png" alt="promo" class="promo-img">
+                    <a href="#" class="btn-promo" data-i18n="promo_btn">Essai gratuit</a>
+                </div>
+            </aside>
+
+            <!-- MAIN CONTENT -->
+            <main class="article-main">
+                <h1 id="article-title" class="article-title"></h1>
+                <div class="article-meta">
+                    <img src="https://img.icons8.com/color/48/user-male-circle--v1.png" alt="avatar" class="article-avatar">
+                    <div class="article-meta-text">
+                        <span class="article-author">Equipe easyFAQ</span>
+                        <span class="article-date" data-i18n="article_date">Il y a 1 mois &middot; Mis &agrave; jour</span>
+                    </div>
+                </div>
+
+                <div class="article-body">
+                    <div class="article-short">
+                        <strong data-i18n="short_answer_label">R&eacute;ponse courte :</strong>
+                        <span id="article-short-text"></span>
+                    </div>
+                    <div class="article-explanation">
+                        <strong data-i18n="explanation_label">Explication :</strong>
+                        <span id="article-explanation-text"></span>
+                    </div>
+                </div>
+
+                <div class="article-related">
+                    <h3 data-i18n="related_articles">Articles li&eacute;s</h3>
+                    <ul id="article-related-links" class="article-related-list"></ul>
+                </div>
+
+                <div class="article-share">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                <div class="article-feedback">
+                    <p data-i18n="feedback_question">Cet article vous a-t-il &eacute;t&eacute; utile ?</p>
+                    <div class="feedback-buttons">
+                        <button class="feedback-btn"><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button class="feedback-btn"><i class="fa-regular fa-thumbs-down"></i></button>
+                    </div>
+                    <button class="btn-send-feedback" data-i18n="send_feedback">Envoyer un retour</button>
+                </div>
+
+                <div class="article-recently">
+                    <h3 data-i18n="recently_viewed">Articles r&eacute;cemment consult&eacute;s</h3>
+                    <ul id="recently-viewed-list" class="recently-list"></ul>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h4 data-i18n="footer_product">Produit</h4>
+                <a href="#" data-i18n="footer_how">Comment &ccedil;a marche</a>
+                <a href="#" data-i18n="footer_status">Page de statut</a>
+                <a href="#" data-i18n="footer_pricing">Tarifs</a>
+                <a href="#" data-i18n="footer_onboarding">Int&eacute;gration</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_resources">Ressources</h4>
+                <a href="#" data-i18n="footer_tools">Outils d'exp&eacute;dition</a>
+                <a href="#" data-i18n="footer_whitepapers">Livres blancs</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_more">Plus</h4>
+                <a href="#" data-i18n="footer_about">&Agrave; propos</a>
+                <a href="#" data-i18n="footer_contact">Contact</a>
+                <a href="#" data-i18n="footer_blog">Blog</a>
+                <a href="#" data-i18n="footer_terms">Conditions g&eacute;n&eacute;rales</a>
+                <a href="#" data-i18n="footer_security">S&eacute;curit&eacute;</a>
+                <a href="#" data-i18n="footer_privacy">Politique de confidentialit&eacute;</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 easyFAQ</p>
+        </div>
+    </footer>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget">
+        <button class="chat-btn">
+            <i class="fa-solid fa-comment-dots"></i>
+        </button>
+        <div class="chat-tooltip" data-i18n="chat_tooltip">Bonjour, comment puis-je vous aider ?</div>
+    </div>
+
+    <script src="translations.js"></script>
+</body>
+</html>
